@@ -1,0 +1,281 @@
+
+header {background-image: url("banner.jpg");}
+
+header nav ul li{
+		display: inline-flex;
+		align-content: center;
+		font-family: 'Raleway', sans-serif;
+		color: red;
+		background-color: white;
+		padding: 10px;
+		border-radius: 10%;
+}
+
+nav a {
+	color: red;
+	text-decoration: none;
+}
+
+header li:hover{
+  background-color: orange;
+}
+.nav {text-decoration: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-spacing: 10px;
+	text-align: center;
+}
+
+a:hover {
+	background-color: orange;
+}
+
+header h1 {
+	color: red;
+	text-align: center;
+	font-weight: bold;
+	font-size: 60px;
+	text-shadow: white 2px 1px 1px;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+header h2 {
+	color:darkorange;
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	text-shadow: red 2px 1px 1px;
+	font-family: 'Raleway', sans-serif;
+	padding-top: 10px;
+}
+
+.sectionh1 {color: darkorange;
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	text-shadow: red 2px 1px 1px;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 10%;
+	margin-bottom: 10%;
+
+}
+
+.sectionh2 {
+	color: darkorange;
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	text-shadow: red 2px 1px 1px;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 20%;
+	margin-bottom: 50px;
+
+}
+
+.politicsh1 {
+	color: darkorange;
+	text-align: center;
+	font-weight: bold;
+	font-size: 60px;
+	text-shadow: red 2px 1px 1px;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-bottom: 1px solid red;
+	margin-left: 30%;
+	margin-right:30%;
+}
+
+.rouge {
+	color: darkorange;
+	text-align: center;
+	font-weight: bold;
+	font-size: 60px;
+	text-shadow: red 2px 1px 1px;
+	font-family: 'Raleway', sans-serif;
+	margin-top:10%;
+	margin-bottom: 2%;
+}
+
+.article1body h2{
+	text-align: center;
+}
+
+.article1body h3{
+	text-align:center;
+}
+.article1body p {
+font-family: 'Raleway', sans-serif;
+font-color:black;
+}
+
+.para {
+	margin-left: 20%;
+	margin-right:20%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+main {
+	margin-left: 5px;
+}
+.img1 {
+	height: auto;
+	max-width:100%;
+	max-height:100%;
+}
+
+h2 {
+	text-shadow: darkorange 1px 0.5px 0.5px;
+	font-family: 'Raleway', sans-serif;
+	color:red;
+	font-size: 30px;
+}
+
+h3 {
+	text-shadow: darkorange 1px 0.5px 0.5px;
+	font-family: 'Raleway', sans-serif;
+	color:red;
+	font-size: 15px;
+
+}
+
+h4 {
+	text-shadow: red 0.5px 0.25px 0.25px;
+	font-family: 'Raleway', sans-serif;
+	color:darkorange;
+	font-size: 10px;
+}
+.article1 h3{ 
+	padding-top: 10px;
+	}
+.article1 {
+	border:3px solid red;
+}
+	
+.img2 {
+	height: auto;
+	max-width:100%;
+	max-height:100%;}
+
+.article2 {
+	border: 3px solid red;
+}
+
+.h22 {
+	font-size: 15px; }
+
+.img3 {
+	height: auto;
+	max-width:100%;
+	max-height:100%;
+	margin-bottom: 5px;
+}
+
+.article3 {
+	border: 3px solid red;
+}
+
+.img4 {height: auto;
+	max-width:100%;
+	max-height:100%;}
+
+.article4 {
+	border: 3px solid red;
+	margin-top: 100px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6% ;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
+
+.mailinglistcta {
+	border: 3px solid red;
+	margin-left: 30%;
+	margin-right: 30%;
+	padding: 20px;
+	text-align: center;
+	margin-top: 10%;
+}
+
+.mailinglistcta h3{ padding-bottom: 20px;
+					font-size: 20px;
+}
+
+.mailinglistcta h4{ padding-bottom: 20px;
+					font-size: 17px;
+}
+
+.mailinglistcta li { padding-bottom: 5px;
+					font-size: 17px;
+					font-family: 'Raleway', sans-serif;
+					color: white;
+					border: 3px solid red;
+					padding-top: 5px;
+					margin-left: 15%;
+					margin-right: 15%;
+					border-radius: 10%;
+					background-color: red;
+
+}
+
+
+.mailinglistcta li:hover {
+	background-color:orange;
+}
+
+.mailinglistcta a{
+	text-decoration: none;
+	color:white;
+}
+.mailinglistcta a:hover{ color: red;
+
+}
+
+
+footer nav ul li {display: inline-block;
+		font-family: 'Raleway', sans-serif;
+		color:orange;
+		background-color: orange;
+		padding: 10px;
+		border-spacing: 10px;
+		text-align: center;
+		margin-top: 200px;
+		border: 1px solid red;
+		border-radius: 5%;}
+
+footer nav ul {
+	margin-bottom: 2%;
+	border-spacing: 5px;
+	margin-left: 2%;
+}
+
